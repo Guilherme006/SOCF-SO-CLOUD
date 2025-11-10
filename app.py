@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 import json
 import platform
@@ -36,7 +35,7 @@ def xcoletar_metricas():
 
 @APP.get("/info")
 def xinfo():
-    return Response(xintegrantes, mimetype="text/plain; charset=utf-8")
+    return xjson({"integrantes": xintegrantes})
 
 @APP.get("/metricas")
 def xmetricas():
