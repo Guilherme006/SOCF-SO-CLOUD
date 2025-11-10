@@ -13,7 +13,7 @@ xintegrantes = os.environ.get(
 
 def xjson(payload: dict, status: int = 200) -> Response:
     return Response(
-        json.dumps(payload, ensure_ascii=False),
+        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=False) + "\n",
         status=status,
         mimetype="application/json; charset=utf-8",
     )
