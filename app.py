@@ -25,7 +25,7 @@ def xcoletar_metricas():
         "Nome": xintegrantes,
         "PID": xproc.pid,
         "Memoria_MB": round(xmem_mb, 2),
-        "CPV": round(xcpu_pct, 2),
+        "CPU": round(xcpu_pct, 2),
         "Sistema_Operacional": xformatar_sistema_operacional(),
     }
 
