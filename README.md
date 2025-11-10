@@ -45,6 +45,8 @@ Aplicação mínima em **Flask** para evidenciar como uma app web observa **recu
 }
 ```
 
+---
+
 ### Desenvolvedores
 **Guilherme Felippe Lazari**
 
