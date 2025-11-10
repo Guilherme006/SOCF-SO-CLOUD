@@ -9,7 +9,7 @@ APP = Flask(__name__)
 
 xintegrantes = os.environ.get(
     "INTEGRANTES",
-    "Guilherme Felippe Lazari; Danillo Gonçalves Camargo da Silva"
+    "Guilherme Felippe Lazari e Danillo Gonçalves Camargo da Silva"
 )
 
 def xjson(payload: dict, status: int = 200) -> Response:
